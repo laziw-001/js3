@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 20px;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 20px;
+}
+h1 {
+	color: black;	
+}
+.button-parent {
+	width: 400px;
+	gap: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 30px 0 30px;
+}
+button {
+	width: 150px;
+	height: 100px;
+	color: black;
+	border: 1px solid black;
+	font-size: 17px;
+}
+.b1 {
+	background-color: red;
+}
+.b2 {
+	background-color: green;
+}
+.b3 {
+	background-color: blue;
+}
+.b4 {
+	background-color: yellow;
+}
